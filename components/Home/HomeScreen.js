@@ -25,13 +25,6 @@ export default function HomeScreen({ navigation }) {
           onPress={() => navigation.navigate("RN LayoutAnimation")}
         />
       </CCView>
-      <CCView ccMargin="s">
-        <ButtonPrimary
-          textContent="React Native Reanimated"
-          size="large"
-          onPress={() => navigation.navigate("RN Reanimated")}
-        />
-      </CCView>
     </Container>
   );
 }

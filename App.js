@@ -9,7 +9,6 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import HomeScreen from "./components/Home/HomeScreen";
 import AnimatedExample from "./components/Animated/AnimatedExample";
 import LayoutAnimationExample from "./components/LayoutAnimation/LayoutAnimationExample";
-import ReanimatedExample from "./components/Reanimated/ReanimatedExample";
 
 const Stack = createNativeStackNavigator();
 
@@ -38,7 +37,6 @@ export default function App() {
             name="RN LayoutAnimation"
             component={LayoutAnimationExample}
           />
-          <Stack.Screen name="RN Reanimated" component={ReanimatedExample} />
         </Stack.Navigator>
       </NavigationContainer>
       <StatusBar style="auto" />
