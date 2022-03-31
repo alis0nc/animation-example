@@ -43,16 +43,17 @@ Only in project users and add users stuff
 
 ## Alternatives
 
-- Reanimated
-- Animatable
-- Shared Element
-- Popmotion
-- Lottie
+- [Reanimated](https://reanimated2.com/) -- work with animations based on gesture interactions, run animations immediately instead of synchronously
+- [Animatable](https://github.com/oblador/react-native-animatable) -- huge amount of preconfigured animation presets
+- [Moti](https://moti.fyi/) -- simple API, animations that work natively across platforms
+- [Shared Element](https://github.com/IjzerenHein/react-native-shared-element) -- transition primitives
+- [Framer Motion](https://www.framer.com/motion/) -- simple API, if you prototype using Framer you can directly transfer animation values to production
+- [Lottie](https://airbnb.design/introducing-lottie/) -- export After Effects animations to json, then render them in iOS, Android, or React
 
 ## Resources
 
 - [React Native animation docs](https://reactnative.dev/docs/animations)
 - [React Native `Animated` docs](https://reactnative.dev/docs/animated)
 - [React Native `LayoutAnimation` docs](https://reactnative.dev/docs/layoutanimation)
-- [The best React Native animation libraries](https://blog.logrocket.com/best-react-native-animation-libraries/)
+- [The best React Native animation libraries](https://blog.logrocket.com/best-react-native-animation-libraries/) (caveat: this post is nearly two years old)
 - [Easings.net](https://easings.net/)
